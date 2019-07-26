@@ -1,4 +1,12 @@
 # Table of contents
 
-* [README](README.md)
+* [Introduction](README.md)
+
+## Foundation
+
+* [Untitled](foundation/untitled.md)
+
+## .NET Core
+
+* [Getting started](.net-core/untitled.md)
 
