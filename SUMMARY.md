@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Background](background.md)
+* [Challenges](background.md)
+* [Solutions](solutions.md)
 
 ## Architecture
 

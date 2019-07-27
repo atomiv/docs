@@ -11,9 +11,3 @@ Optivem Docs provides a practical guide to help you accelerate your enterprise s
 * Reference \(.NET Core 2\)
 * About
 
-## Foundations
-
-{% page-ref page="./" %}
-
-{% page-ref page="architecture/overview.md" %}
-
