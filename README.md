@@ -8,6 +8,8 @@ description: Welcome to the Optivem Docs.
 
 Optivem Docs provides a practical guide to help you accelerate your enterprise software development teams with the Optivem Framework.
 
+This means you’re free to use it for commercial and non-commercial purposes.
+
 ## Background
 
 Are you a leader in an enterprise software development organization, interested in producing quality software? Have you experienced the challenges in managing software projects - satisfying customers' needs to produce software faster, but yet at the same time, facing quality issues?
