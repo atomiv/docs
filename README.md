@@ -6,9 +6,10 @@ description: Welcome to the Optivem Docs.
 
 Optivem Docs provides a practical guide to help you accelerate your enterprise software development teams with the Optivem Framework.
 
-
-
-  [**Optivem Framework**](//www.slideshare.net/optivem/optivem-framework-155967670) from [**Optivem**](https://www.slideshare.net/optivem)
+* Architecture
+* Quick Start \(.NET Core 2\)
+* Reference \(.NET Core 2\)
+* About
 
 ## Foundations
 

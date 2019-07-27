@@ -6,3 +6,9 @@ The following are the applications and technologies installed, which are require
 * Visual Studio Installer: ASP.NET and web development
 * Visual Studio Extensions: CodeMaid, SpecFlow for Visual Studio 2019, GitHub Extension for Visual Studio
 
+
+
+
+
+* Angular 7 projects: we installed [Node.js](https://nodejs.org/en/) and [Angular 7 CLI](https://cli.angular.io/). We used [Visual Studio Code](https://code.visualstudio.com/), [Chrome](https://www.google.com/chrome/) and the [Debugger for Chrome \(Visual Studio Code Extension\)](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) .
+

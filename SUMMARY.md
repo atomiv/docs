@@ -21,11 +21,6 @@
 * [Reference](quick-start-dot-net-core/technical-reference.md)
 * [Support](quick-start-dot-net-core/support.md)
 
-## Quick Start \(Angular 8\) <a id="quick-start-angular"></a>
-
-* [Overview](quick-start-angular/overview.md)
-* [Setup](quick-start-angular/setup.md)
-
 ## Reference \(.NET Core 2\)
 
 * [Overview](reference-.net-core-2/untitled.md)
@@ -37,6 +32,7 @@
 
 ## About
 
+* [Overview](about/overview.md)
 * [Licence](about/licence.md)
 * [Support](about/support.md)
 
