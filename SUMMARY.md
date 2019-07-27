@@ -1,14 +1,20 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Overview](README.md)
+* [Background](background.md)
 
-## Foundations
+## Architecture
 
-* [Clean Architecture](foundations/clean-architecture.md)
-* [Optivem Framework](foundations/optivem-framework.md)
+* [Overview](architecture/overview.md)
+* [Core Layer](architecture/core-layer.md)
+* [Infrastructure Layer](architecture/infrastructure-layer.md)
+* [Presentation Layer](architecture/presentation-layer.md)
+* [Test Layer](architecture/test-layer.md)
+* [Dependency Injection](architecture/dependency-injection.md)
 
 ## Quick Start \(.NET Core 2\) <a id="quick-start-dot-net-core"></a>
 
+* [Overview](quick-start-dot-net-core/overview.md)
 * [Setup](quick-start-dot-net-core/setup.md)
 * [Installation](quick-start-dot-net-core/installation.md)
 * [New Project](quick-start-dot-net-core/new-project.md)
@@ -17,6 +23,7 @@
 
 ## Quick Start \(Angular 8\) <a id="quick-start-angular"></a>
 
+* [Overview](quick-start-angular/overview.md)
 * [Setup](quick-start-angular/setup.md)
 
 ## Reference \(.NET Core 2\)

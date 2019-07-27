@@ -1,4 +1,4 @@
-# Clean Architecture
+# Overview
 
 The underlying architecture for our projects is based on the "Clean Architecture" approaches:
 
@@ -23,4 +23,16 @@ The dependencies are as follows:
 But, given the independence above, how do they communicate? The answer is: Inversion of Control \(IoC\) - Dependency Injection \(DI\). For example, the Application Core defines interfaces for communicating with a database \(i.e. Repository interfaces\), and inside the Infrastructure layer, the Repository interfaces are implemented \(e.g. using ORM frameworks or any other mechanisms\).
 
 The core benefits is that due to the independence of the Application Core, it ensures separation of concerns and modulaity, swappability of databases, UIs and any frameworks, and also enables the system to be testable. These factors increase system quality and decreasing overall total development and maintenance cost.
+
+
+
+
+
+The architecture consists of the following layers:
+
+* Core Layer \(contains Domain and Application\)
+* Infrastructure Layer \(contains third-party libraries and frameworks, integration with external systems\)
+* Dependency Injection Layer \(used to setup the compostion root\)
+* Web Layer \(contains the REST API and presentation\)
+* Test Layer \(contains Unit, Integration and System tests\)
 
