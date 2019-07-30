@@ -1,8 +1,6 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Challenges](background.md)
-* [Solutions](solutions.md)
 
 ## About
 
