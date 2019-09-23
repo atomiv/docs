@@ -23,7 +23,7 @@ Ensure you have the following installed:
 * [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/) \(we have used Visual Studio Community 2019, and installed via the Visual Studio Installer: ASP.NET and web development\)
 * [SQL Server 2017 Developer](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) and [SQL Server Management Studio 17.9.1](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
 
-Within Visual Studio, use the Package Manager Console \(Tools &gt; NuGet Package Manager &gt; Package Manager Console\) to install the Optivem Template \(in the future you can also uninstall and re-install newer versions\):
+Run Visual Studio \(in the "Getting Started", select "Continue without code"\), use the Package Manager Console \(Tools &gt; NuGet Package Manager &gt; Package Manager Console\) to install the Optivem Template \(in the future you can also uninstall and re-install newer versions\):
 
 ```text
 PM> dotnet new -i Optivem.Template
@@ -50,7 +50,11 @@ Then adjust the database connection \(inside the project MyWebShop.Web.RestApi, 
 PM> Update-Database
 ```
 
-Run the application in Debug mode. The application opens up automatically, e.g. [https://localhost:44315/api/values](https://localhost:44315/api/values). You can also execute API calls via [https://localhost:44315/swagger/index.html](https://localhost:44315/swagger/index.html). Finally, at the end you can stop debugging.
+You can verify inside SQL Server Management Studio that the database has been created.
 
-To run the automated tests, open up the Test Explorer \(Visual Studio main menu: Test &gt; Windows &gt; Test Explorer\) and rebuild the solution to discover all the tests. Click on “Run All” inside the Test Explorer \(all tests should pass\).
+Then run the application in Debug mode. The application opens up automatically, e.g. [https://localhost:44315/](https://localhost:44315/api/values). You can also execute API calls via swagger, e.g. [https://localhost:44315/swagger/index.html](https://localhost:44315/swagger/index.html) and verify that the response is successful. \(Note that the port on your computer may differ from the port here.\) Finally, at the end you can stop debugging.
+
+To run the automated tests, open up the Test Explorer \(Visual Studio main menu: Test &gt; Windows &gt; Test Explorer\) and rebuild the solution to discover all the tests. For Integration and System tests, you can set the database connection string \(opening up appsettings.Test.json inside the test projects and setting a value for DefaultConnection\). Click on “Run All” inside the Test Explorer \(all tests should pass\).
+
+Then you can use this solution for your actual project needs. We recommend you firstly see the sample structure \(with customers, products and orders\), so that you can see the overall flow, then you can add your own classes and interfaces.
 
