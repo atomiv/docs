@@ -1,4 +1,4 @@
-# IT Leaders
+# IT Leadership
 
 ## Challenges
 

@@ -1,2 +1,2 @@
-# QA Engineers
+# Quality Assurance
 
