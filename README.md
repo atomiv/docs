@@ -1,6 +1,6 @@
 # Overview
 
-Welcome to the Optivem Framework Docs. We are here to provide you with a practical guide to accelerate your enterprise software development teams.
+Ready to accelerate your enterprise software development teams and grow successful software companies? Welcome to the Optivem Framework.
 
 Optivem Framework is designed to support your software teams:
 
@@ -15,7 +15,7 @@ Optivem Framework is designed to support your organization:
 * Increase profitability & decrease costs
 * Make your customers happy
 
-
+Optivem Framework is open source \(MIT licence\) and intended to be useful for commercial purposes.
 
 
 

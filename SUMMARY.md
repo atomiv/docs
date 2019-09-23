@@ -4,14 +4,13 @@
 
 ## Framework
 
-* [IT Leadership](framework/it-leadership.md)
-* [Software Architecture](framework/software-architecture.md)
-* [Software Development](framework/software-development.md)
-* [Software Quality](framework/software-quality.md)
+* [IT Leaders](framework/it-leadership.md)
+* [Software Architects](framework/software-architecture.md)
+* [Software Developers](framework/software-development.md)
+* [QA Engineers](framework/software-quality.md)
 
 ## About
 
-* [Overview](about/overview.md)
 * [Licence](about/licence.md)
 * [Support](about/support.md)
 
