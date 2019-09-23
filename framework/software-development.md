@@ -19,8 +19,8 @@ Optivem Framework is designed to help you in your everyday job, helping to to wr
 
 Ensure you have the following installed:
 
-* [Microsoft .NET Core SDK 2.2.104](https://dotnet.microsoft.com/download)
-* [Visual Studio Community 2017 Version 15.9.4](https://visualstudio.microsoft.com/vs/community/) \(Visual Studio Installer: ASP.NET and web development\)
+* [https://dotnet.microsoft.com/download/dotnet-core](https://dotnet.microsoft.com/download/dotnet-core) \(we have used .NET Core SDK 2.2\)
+* [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/) \(we have used Visual Studio Community 2019, and installed via the Visual Studio Installer: ASP.NET and web development\)
 * [SQL Server 2017 Developer](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) and [SQL Server Management Studio 17.9.1](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
 
 Within Visual Studio, use the Package Manager Console \(Tools &gt; NuGet Package Manager &gt; Package Manager Console\) to install the Optivem Template \(in the future you can also uninstall and re-install newer versions\):
