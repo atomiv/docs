@@ -21,25 +21,42 @@ Optivem Framework was envisioned to help you design and implement high quality a
 
 The Optivem Template provides a ready-made project with the following layers:
 
-* Core Layer \(contains Domain and Application\)
-* Infrastructure Layer \(contains third-party libraries and frameworks, integration with external systems\)
-* Web Layer \(contains the REST API and Web UI\)
-* Test Layer \(contains Unit, Integration and System tests\)
-* IoC Layer \(contains dependency injection\)
+* Core Layer
+* Infrastructure Layer
+* Presentation Layer
+* DI Layer
+* Test Layer
+
+### Layers
+
+The **Core Layer** contains the **Domain Layer** and **Application Layer**. The Domain Layer is based on Domain Driven Design \(DDD\) principles, containing entities and aggregate roots, value objects and repository interfaces. There model the domain, implement the business logic, the "heart" of the system. The Application Layer consists of application services, which in turn execute use cases, these manage the flow, for example, calling repositories to retrieve aggregate roots, executing some actions, and then persisting the aggregate roots. The Application Layer consists of the Application Layer interfaces \(application service interfaces\) and Application Layer implementation \(application service implementation, use case implementation\). The Domain Layer is self-contained, and the Application Layer depends only on the Domain Layer.
+
+The **Infrastructure Layer** contains third-party libraries and frameworks, as well as integration with external systems. The infrastructure contains the implementation for any interfaces which have been declared in the Core Layer. For example, inside the Infrastructure Layer contains repository implementations \(e.g. using ORMs, SQL, NoSQL, etc.\), implementations for messaging and notifications \(e.g. integration with message queues, sending emails, sending SMS's\), and implementations for integration with any external systems \(e.g. integration with ERP, CRM, any external web services, databases, etc.\). The Infrastructure Layer depends on the Core Layer, but the Core Layer does _not_ depend on the Infrastructure Layer. This means that infrastructural concerns are replaceable \(e.g. switching to a different database system, switching to a different messaging system, switching to other frameworks, etc.\).
+
+The **Presentation Layer** presents the application to clients. The Web Layer **Web Layer** serves as a web-based presentation layer, whilst the **CLI Layer** serves as a console-based application layer. The Web Layer contains REST APIs \(controllers\), SOAP services, and also additionally Web UI clients \(views and controllers\) and JavaScript web clients \(Angular, React, Vue, etc.\). The CLI Layer contains the console application \(console commands\). The Presentation Layer is dependent only on the application service interfaces which are declared in the Application Layer, but is not dependent on Application Layer implementation nor the Domain Layer implementation. On the other hand, the Core Layer does _not_ depend on the Web Layer. This means that the presentation is easily replaceable \(e.g. choosing any frontend implementations\), and it also ensures that the Core Layer can be tested even without the Web Layer.
+
+The **DI Layer** contains the dependency injection mechanism, whereby it binds together the implementations from the Infrastructure Layer with the interfaces that have been defined in the Core Layer. This is also known as the "composition root", because it is at this point, the entry point for the application execution, where the dependencies are composed. 
+
+The **Test Layer** contains all the automated tests - Unit tests, Integration tests and System tests. Testing the Domain Layer is done exclusively through unit tests, because the Domain Layer contains exclusively business logic, and any interfaces to external systems are mocked. Testing the Application Layer is also able to be done via unit tests, to test the application logic. Furthermore, Integration tests can be made for the entire Core Layer, and System tests for the Web Layer.
+
+### Dependencies
+
+To summarize, the dependencies are as follows:
+
+The **Core Layer** is self-contained and it does not dependent on any other layers. 
+
+The Domain Layer does not have dependencies on other layers. The Application Layer interfaces do not contain dependencies on other layers. The Application Layer implementation depends both on Application Layer interfaces and the Domain Layer.
+
+The **Infrastructure Layer** depends on the Core Layer, because it implements the interfaces defined in the Core Layer. Thus, it is an "implementation detail" with ORM's, frameworks and external systems.
+
+The **Presentation Layer** depends on the Application Layer interfaces.
+
+The **DI Layer** depends on the Core Layer and the Infrastructure Layer.
+
+* 
 
 
 
-The Core Layer contains the Domain Layer and Application Layer. The Domain Layer is based on Domain Driven Design \(DDD\) principles, containing entities and value objects which model the domain, implement the business logic, the "heart" of the system. The Application Layer consists of application services, which in turn execute use cases, these 
-
-
-
-
-
-The key concept is the separation of concerns:
-
-* Application Core contains application logic \(Application Layer\) and domain logic \(Domain Layer\)
-* Presentation Layer contains GUI Views and Controllers, REST Controllers, SOAP Controllers, Console Commands
-* Infrastructure Layer contains Databases, Email, Messaging, and any other external agencies
 
 The dependencies are as follows:
 
