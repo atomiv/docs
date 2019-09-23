@@ -58,3 +58,7 @@ To run the automated tests, open up the Test Explorer \(Visual Studio main menu:
 
 Then you can use this solution for your actual project needs. We recommend you firstly see the sample structure \(with customers, products and orders\), so that you can see the overall flow, then you can add your own classes and interfaces.
 
+### Java 9
+
+Optivem Framework is planned to be developed also for Java 9, using Spring Framework, Hibernate, etc. This section will be updated with instructions. 
+
