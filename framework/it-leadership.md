@@ -1,5 +1,7 @@
 # IT Leaders
 
+## Challenges
+
 As an IT leader, you have probably encountered the following challenges:
 
 * How can we grow high performance software development teams?
@@ -8,7 +10,13 @@ As an IT leader, you have probably encountered the following challenges:
 * How can we systematically achieve success?
 * How can we make our customers really happy?
 
-The goal of Optivem Framework is, first and foremost, to help IT leaders provide their teams with a foundation to successfully achieve the above goals:
+## Principles
+
+The Optivem Framework has an engineering-oriented approach to software. Our belief is that a lot of software development can be systematized, and that we want to achieve organizational success without too much reliance on having to hire A-players. Thus, it is designed to work well both on teams with lots of seniors but also with juniors.
+
+## Solutions
+
+Thus, the goal of Optivem Framework is, first and foremost, to help IT leaders provide their teams with a foundation to successfully achieve the above goals:
 
 * Optivem Framework provides a project template, thereby decreasing the initial up-front effort needed by your team to get started
 * Optivem Framework has a well-defined software architecture, based on industry best practices, ensuring that software is maintainable and extensible in the future

@@ -17,5 +17,3 @@ Optivem Framework is designed to support your organization:
 
 Optivem Framework is open source \(MIT licence\) and intended to be useful for commercial purposes.
 
-
-
