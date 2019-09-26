@@ -4,7 +4,7 @@
 
 ## Optivem Framework <a id="framework"></a>
 
-* [IT Leadership](framework/it-leadership.md)
+* [IT Leadership](it-leadership.md)
 * [Software Architecture](framework/software-architecture.md)
 * [Software Development](framework/software-development.md)
 * [Test Automation](framework/test-automation.md)
