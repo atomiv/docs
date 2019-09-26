@@ -1,17 +1,16 @@
 # Table of contents
 
 * [Overview](README.md)
-* [IT Leadership](it-leadership.md)
-
-## Optivem Framework <a id="framework"></a>
+* [IT Leadership](leadership.md)
 
 
-* [Software Architecture](framework/software-architecture.md)
-* [Software Development](framework/software-development.md)
-* [Test Automation](framework/test-automation.md)
 
-## About
+* [Software Architecture](architecture.md)
+* [Software Development](development.md)
+* [Test Automation](testing.md)
 
-* [Licence](about/licence.md)
-* [Support](about/support.md)
+
+
+* [Licence](licence.md)
+* [Support](support.md)
 
