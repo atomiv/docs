@@ -19,19 +19,19 @@ Optivem Framework is open source \(MIT licence\) and intended to be useful for c
 
 Are you an IT Leader who wants to grow high performance teams and deliver successful projects?
 
-{% page-ref page="framework/it-leadership.md" %}
+{% page-ref page="leadership.md" %}
 
 Are you a Software Architect who wants to design software architecture for maintainable and extensible software systems?
 
-{% page-ref page="framework/software-architecture.md" %}
+{% page-ref page="architecture.md" %}
 
 Are you a Software Developer who wants to write software faster, with less code and higher quality?
 
-{% page-ref page="framework/software-development.md" %}
+{% page-ref page="development.md" %}
 
 Are you a Test Automation Engineer who wants to write automated tests faster and make them easy to maintain?
 
-{% page-ref page="framework/test-automation.md" %}
+{% page-ref page="testing.md" %}
 
 All the best in your journey towards successful IT projects and products - reach the next level with the Optivem Framework.
 
