@@ -10,9 +10,9 @@ Optivem Framework is open source \(MIT licence\) so it can be freely used both f
 
 ## Which technologies does the Optivem Framework support?
 
-Currently, the Optivem Framework supports .NET Core 2.2. It will soon be updated to support .NET Core 3.
+Currently, the Optivem Framework is focused on backend web development and it targets .NET Core 2.2 \(soon we will be upgrading to .NET Core 3\). In the future, we also have plans to support Java web applications.
 
-In the future, we also have plans to support Java applications.
+Furthermore, aside from backend web development, we also intended to provide frontend development templates \(Angular\) .
 
 ## What results does the Optivem Framework provide?
 
@@ -65,6 +65,18 @@ A lot of software development revolves in working with existing software systems
 3. Last, but not least, in cases where changing the existing system is not feasible, we recommend using Optivem Framework when your team is assigned with the next bigger features or modules - to consider implementing them as microservices, using the Optivem Template to create the microservice, whereby the old legacy application can communicate with the new microservice, and gradually other parts of the old application may be migrated too
 
 In summary, Optivem Framework can be used both for new and existing projects - in both cases it will help your team to produce high quality solutions.
+
+## How can Optivem Framework support our senior developers?
+
+\(in-progress\)
+
+## How can Optivem Framework support our junior developers?
+
+\(in-progress\)
+
+## How can Optivem Framework support parallel development?
+
+\(in-progress\)
 
 ## What are the next steps to implement the Optivem Framework?
 
