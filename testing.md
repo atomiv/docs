@@ -2,7 +2,7 @@
 
 ## Challenges
 
-As a Test Automation Engineer, you are faced with challenges in  effectively designing, implementing and maintaining automated tests:
+As a Test Automation Engineer, you are faced with challenges in effectively designing, implementing and maintaining automated tests:
 
 * REST API tests
 * Web Browser tests

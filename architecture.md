@@ -35,7 +35,7 @@ The **Infrastructure Layer** contains third-party libraries and frameworks, as w
 
 The **Presentation Layer** presents the application to clients. It is the external interface to the software system. The Web Layer **Web Layer** serves as a web-based presentation layer, whilst the **CLI Layer** serves as a console-based application layer. The Web Layer contains REST APIs \(controllers\), SOAP services, and also additionally Web UI clients \(views and controllers\) and JavaScript web clients \(Angular, React, Vue, etc.\). The CLI Layer contains the console application \(console commands\). The Presentation Layer is dependent only on the application service interfaces which are declared in the Application Layer, but is not dependent on Application Layer implementation nor the Domain Layer implementation. On the other hand, the Core Layer does _not_ depend on the Web Layer. This means that the presentation is easily replaceable \(e.g. choosing any frontend implementations\), and it also ensures that the Core Layer can be tested even without the Web Layer.
 
-The **DI Layer** contains the dependency injection mechanism, whereby it binds together the implementations from the Infrastructure Layer with the interfaces that have been defined in the Core Layer. This is also known as the "composition root", because it is at this point, the entry point for the application execution, where the dependencies are composed. 
+The **DI Layer** contains the dependency injection mechanism, whereby it binds together the implementations from the Infrastructure Layer with the interfaces that have been defined in the Core Layer. This is also known as the "composition root", because it is at this point, the entry point for the application execution, where the dependencies are composed.
 
 The **Test Layer** contains all the automated tests - Unit tests, Integration tests and System tests. Testing the Domain Layer is done exclusively through unit tests, because the Domain Layer contains exclusively business logic, and any interfaces to external systems are mocked. Testing the Application Layer is also able to be done via unit tests, to test the application logic. Furthermore, Integration tests can be made for the entire Core Layer, and System tests for the Web Layer.
 
@@ -43,7 +43,7 @@ The **Test Layer** contains all the automated tests - Unit tests, Integration te
 
 To summarize, the dependencies are as follows:
 
-The **Core Layer** is self-contained and it does not dependent on any other layers. 
+The **Core Layer** is self-contained and it does not dependent on any other layers.
 
 * The **Domain Layer** does not have dependencies on other layers. 
 * The **Application Layer Interface** do not contain dependencies on other layers. 
@@ -71,10 +71,4 @@ The flow is as follows:
    2. In cases of _**Command Use Cases**_, i.e. use cases which execute a change on the system, then the Command Use Case will likely call the _**Repository Interfaces**_ in the Domain Layer to retrieve the aggregate root\(s\), execute some action on the aggregate root \(which internally contains business logic, which is encapsulated\), and then it will add or update or delete the aggregate root via the Repository Interface. Finally, it will generate a _**Response**_.
 6. The **Application Layer** returns the _**Response**_ to the Presentation Layer.
 7. The **Presentation Layer** presents the _**Response**_ to the client.
-
-
-
-
-
-
 

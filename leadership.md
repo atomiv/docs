@@ -33,5 +33,3 @@ In summary, Optivem Framework will help your teams achieve the following:
 * Deliver software faster than ever before
 * Make your customers happy
 
-
-

@@ -60,5 +60,5 @@ Then you can use this solution for your actual project needs. We recommend you f
 
 ### Java 9
 
-Optivem Framework is planned to be developed also for Java 9, using Spring Framework, Hibernate, etc. This section will be updated with instructions. 
+Optivem Framework is planned to be developed also for Java 9, using Spring Framework, Hibernate, etc. This section will be updated with instructions.
 
