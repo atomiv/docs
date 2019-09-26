@@ -1,12 +1,18 @@
 # Overview
 
-Ready to accelerate your enterprise software development teams and grow successful software companies? Welcome to the Optivem Framework.
+Ready to accelerate your enterprise software development teams and deliver successful software projects? Welcome to the Optivem Framework.
 
 ## What is the Optivem Framework?
 
 Optivem Framework is a high-quality high-performance architecture framework built for software enterprise teams. It is rooted in best practices in enterprise architecture, providing a standardized software solution template. This provides your software teams with a clean architecture foundation, so that they can quickly and easily build quality software - accelerate your development whilst retaining high quality.
 
 Optivem Framework is open source \(MIT licence\) so it can be freely used both for commercial and non-commercial purposes.
+
+## Which technologies does the Optivem Framework support?
+
+Currently, the Optivem Framework supports .NET Core 2.2. It will soon be updated to support .NET Core 3.
+
+In the future, we also have plans to support Java applications.
 
 ## What results does the Optivem Framework provide?
 
@@ -27,44 +33,40 @@ Optivem Framework is designed to support your organization:
 
 Optivem Framework is founded upon the following three principles:
 
-1. **Quality principle**: Quality software is a prerequisite for producing software which works well, with minimal defects and with low maintenance costs, and overall providing a good customer experience. When projects don't start with a quality architecture and accumulate technical debt over time, it reaches a point when there are too many bugs, the software is unusable, new features cause system breakdown, developers lose productivity and overall leading to customer dissatisfaction. It is essential that projects are started with a solid quality architectural foundation - this is exactly the core focus of the Optivem Framework.
+1. **Quality principle**: Quality software is a prerequisite for producing software which works well, with minimal defects and with low maintenance costs, and overall providing a good customer experience. When projects don't start with a quality architecture and accumulate technical debt over time, it reaches a point when there are too many bugs, the software is unusable, new features cause system breakdown, developers lose productivity and overall leading to customer dissatisfaction. It is essential that projects are started with a solid quality architectural foundation - this is exactly the core focus of the Optivem Framework, to help you develop modular, flexible, extensible and maintainable software.
 2. **Speed principle**: However, even though we recognize the importance the importance of quality, we are also familiar with the time pressures faced in software projects - to deliver early, to deliver fast, whereby in reality, in the short-term, development speed becomes more important than quality, even though quality is essential for long-term development speed. This is a major barrier for organizations looking to setup quality system architecture. This is where Optivem Framework comes in - it provides a template for the solution architecture as well as components to reduce development time.
 3. **Standardization principle**: Last, but not least we come to standardization - the principle to standardize project structure so that we can systemically achieve quality and speed across our software projects. This also increases re-use and provides organizations with higher flexibility to organize development teams and incorporate new members, and avoids to the "re-invent the wheel" syndrome. It also makes project success a part of the organization, rather than relying on a few "talented" "A-player" individuals. Optivem Framework did not invent anything new, it simply took existing best practices and provided a standardized templated solution.
 
+## What are the key features of the Optivem Framework?
 
+* Optivem Framework provides the Optivem Template, which can be installed via NuGet - and after inputting the project name, a new solution will be generated for you with all the architectural layers and with sample code \(customers, products and orders\) which can be used a starting point and practical example for implementation
+* Optivem Framework provides standardized implementation for CRUD operations across all layers of the sofware \(from REST controllers, to application services, to repositories\)
+* Optivem Framework has pre-packaged popular NuGet packages, including Entity Framework Core 2, FluentAssertions, AutoMapper, MediatR, which are used for implementation in the infrastructure layer - however, these are defaults, so you are not locked in but can choose other packages and provides, because Optivem Framework relies on interfaces so that third party libraries and frameworks are easily swappable
+* Optivem Framwork is designed to be high performance, especially efficient operations with  Entity Framework Core 2 - efficiently working with large data sets
+* Optivem Framework contains components which simplify automated testing, especially Selenium and REST API testing, so that automated tests can be produced faster and with less code
 
+## How can we use the Optivem Framework for new projects?
 
+The primary intended usage for the Optivem Framework is for building new projects. This is where Optivem Framework provides the most value - in setting a clean architecture foundation. We recommend the following approach:
 
-Шта све садржи:
+1. Install the Optivem Template via NuGet [https://docs.optivem.com/framework/development/](https://docs.optivem.com/framework/development/) which creates a new Visual Studio solution, with all the layers: Core Layer, Infrastructure Layer, Web Layer, Test Layer
+2. Familiarize yourself with the sample code in the generated solution \(bases on the commonly used example in enterprise software - customers, products and orders\), it contains implementation across all layers: Sample REST controllers in the Web Layer, Sample application services and domain entities in the Core Layer, Sample integration with third-party frameworks \(Entity Framework Core, AutoMapper, FluentAssertions, MediatR\) in the Infrastructure Layer, Sample automated tests \(domain unit tests, application service integration tests, REST API integration tests and Selenium system tests\)
+3. Based on the sample code, you can starting applying it to your project - i.e. to create relevant REST controllers, application services, domain entities, etc. by following the standardized structure, and when you're comfortable with that you can later delete the sample code
+4. In the case that you want to work with additional third-party libraries or replace the default the default third-party libraries included within the Optivem Framework Infrastructure, you can freely do so, by implementing wrappers for any other third-party libraries
 
-* Optivem Template се може лако преузети преко NuGet-a, укуциати име вашег пројекта / производа, и добијете потпуно изгенерисан solution са свим слојевима
-* Генерисања архитектура је у складу са best practices / clean architecture -&gt; нуди вам квалитетну подлогу
-* Optivem Framework је заснован на принципима модуларности и флексибилности, поштива правила око зависности преко интерфејса - он по default-у је интегрисан са популарним пакетима \(Entity Framework Core, FluentAssertions, AutoMapper, MediatR\) али је то све заменљиво због интерфејса, то значи да нисте "locked in"
-* Optivem Framework већ има одрађене имплементације за CRUD операције по свим нивоима \(од request/response-a, до сервиса, до репозиторијума\)
-* Optivem Template, када је скинете, садржи не само празни костур него већ и пример/sample коришћења, који с једне стране је минимималисичан али с друге стране релевантан за реалну употребу, конкретно је имплементовано customers, products & orders, по свим нивоима, и то служио као практичан пример примене Optivem Framework-a
-* Optivem Framework је грађен са наменом за прављење високо перформантних система. Једна од ставки где смо обратили пажњу је пееформанти рад са базама података, поготово са Entity Framework Core, где су направљене компоненте за пееформанти рад \(и такође за рад са великом количином података - напомена: ово ускоро убацујем у њега\)
-* Optivem Framework такође има компоненте које вам олакшавају аутоматско тестирање, поготово Selenium + REST API тестирањем, тако да пишете мање кода
+_Note: We are also in the process of releasing automated code generation functionality for the Optivem Framework, whereby it will generate classes for your entities across all layers._
 
+## How can we use the Optivem Framework for existing projects?
 
+A lot of software development revolves in working with existing software systems, by extending them with new features and bug fixing. When working with existing systems, it may be too difficult or risky or expensive to attempt major refactoring or system overhaul, and for that reason we recommend an incremental quality improvement approach using the Optivem Framework:
 
+1. As a first \(less-invasive\) step, you can use the Optivem Framework Infrastructure packages individually - using them as you would use other NuGet libraries - with examples as follows: using the Optivem Framework HTTP clients \(based on System.Net\), Csv Serializers \(based on CsvHelper\), Excel readers and writers \(based on EPPlus\), and generic repository and unit of work implementations \(implemented on top of Entity Framework Core 2\) and system utilities \(working with DataTables, reflection, parsing\), and web utilities \(exception handlers, validation responses, CSV formatters for ASP.NET Core\), and automated testing wrappers \(wrappers for automated web testing based on Selenium\)
+2. As a next \(more invasive\) step, you can switch to Domain Driven Design \(DDD\) and use-case driven approach by implementing the interfaces from Optivem Framework Core packages \(Domain and Application\), which would involve refactoring your code into properly separated application services, use cases, entities, value objects, etc.
+3. Last, but not least, in cases where changing the existing system is not feasible, we recommend using Optivem Framework when your team is assigned with the next bigger features or modules - to consider implementing them as microservices, using the Optivem Template to create the microservice, whereby the old legacy application can communicate with the new microservice, and gradually other parts of the old application may be migrated too
 
+In summary, Optivem Framework can be used both for new and existing projects - in both cases it will help your team to produce high quality solutions.
 
-
-
-
-
-
-
-Што се тиче применe и коришћење Optivem Framework:
-
-1. Његова првенствена примена је да се креира пројекат користећи Optivem Template што генерише структуру и убаци Optivem Framework пакете, ово је најједноставнији начин да имате чисту подлогу од старта и за нове пројекте
-2. Али пошто већина пројеката су рад на неким постојећим пројектима, намена ту је:
-3. Пошто је Optivem Framework на NuGet-у постављен кроз више пакета, ви можете користити неки пакет, например пакет за CSV сериализацију, или компоненте за Entity framework, или компоненте за рад са Selenium-om...
-4. Други начин је да иако тренутно радите на некој апликацији, да за неки следећи могул или следећу фунцкионалност правите као микосервис, и онда користите Optivem Template за генерисање тога, а и ту би ваша апликација преусмеравање микоросервису...
-
-
-
-## How do I implement the Optivem Framework in my teams?
+## What are the next steps to implement the Optivem Framework?
 
 Are you an IT Leader who wants to grow high performance teams and deliver successful projects?
 
