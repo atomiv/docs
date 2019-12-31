@@ -1,7 +1,5 @@
 # Template Installation
 
-## Introduction
-
 Optivem Templates can be installed via the Package Manager Console.
 
 ## Installing Template

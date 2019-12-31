@@ -1,7 +1,5 @@
 # Prerequisites
 
-## Overview
-
 In order to be able to use Optivem Framework, please ensure you have the following prerequisites:
 
 * .NET Core 3.1
@@ -39,4 +37,16 @@ Then after that, install the latest version of SQL Server Management Studio \(SS
 1. Go to [https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)
 2. In the "Download SSMS" section, click on "Download SQL Server Management Studio \(SSMS\)"
 3. Run the installer with the default options
+
+## .NET Tools
+
+Ensure that you have installed .NET EF tools:
+
+1. Run Visual Studio
+2. Open the Package Manager Console
+3. Run the following command:
+
+```text
+PM> dotnet tool install --global dotnet-ef
+```
 
