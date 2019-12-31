@@ -2,8 +2,6 @@
 
 Ready to accelerate your enterprise software development teams and deliver successful software projects? Welcome to the Optivem Framework.
 
-Serbian variant...
-
 ## What is the Optivem Framework?
 
 Optivem Framework is a high-quality high-performance architecture framework built for software enterprise teams. It is rooted in best practices in enterprise architecture, providing a standardized software solution template. This provides your software teams with a clean architecture foundation, so that they can quickly and easily build quality software - accelerate your development whilst retaining high quality.
