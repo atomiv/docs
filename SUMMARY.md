@@ -8,3 +8,9 @@
 * [Licence](licence.md)
 * [Support](support.md)
 
+## Getting Started
+
+* [Prerequisites](getting-started/prerequisites.md)
+* [Template Installation](getting-started/template-installation.md)
+* [First Project](getting-started/first-project.md)
+
