@@ -11,7 +11,7 @@ As a software architect, your faced with challenges in design software architect
 
 ## Principles
 
-Optivem Framework was envisioned to help you design and implement high quality architectures for software projects and products. Optivem Framework provides a templated solution architecture based on well-known best practices in clean architecture:
+Atomiv was envisioned to help you design and implement high quality architectures for software projects and products. Atomiv provides a templated solution architecture based on well-known best practices in clean architecture:
 
 * [Hexagonal Architecture, aka. Ports and Adapters \(Alistair Cockburn, 2005\)](https://dzone.com/articles/hexagonal-architecture-is-powerful) 
 * [Onion Architecture \(Jeffrey Palermo, 2008\)](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/)
@@ -19,7 +19,7 @@ Optivem Framework was envisioned to help you design and implement high quality a
 
 ## Solutions
 
-The Optivem Template provides a ready-made project with the following layers:
+The Atomiv Template provides a ready-made project with the following layers:
 
 * Core Layer
 * Infrastructure Layer
