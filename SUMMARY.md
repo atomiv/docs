@@ -11,7 +11,11 @@
 * [Licence](licence.md)
 * [Support](support.md)
 
-## C\# <a id="cs"></a>
+## .NET Core <a id="dotnet"></a>
 
-* [Get Started](cs/get-started.md)
+* [Get Started](dotnet/get-started.md)
+
+## Angular
+
+* [Get Started](angular/get-started.md)
 
