@@ -14,8 +14,10 @@
 ## .NET Core <a id="dotnet"></a>
 
 * [Get Started](dotnet/get-started.md)
+* [Walkthrough](dotnet/walkthrough.md)
 
 ## Angular
 
 * [Get Started](angular/get-started.md)
+* [Walkthrough](angular/walkthrough.md)
 
