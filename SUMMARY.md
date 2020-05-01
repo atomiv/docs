@@ -1,10 +1,13 @@
 # Table of contents
 
 * [Overview](README.md)
-* [IT Leadership](leadership.md)
-* [Software Architecture](architecture.md)
-* [Software Development](development.md)
-* [Test Automation](testing.md)
+
+## Foundations
+
+* [IT Leadership](foundations/leadership.md)
+* [Software Architecture](foundations/architecture.md)
+* [Software Development](foundations/development.md)
+* [Test Automation](foundations/testing.md)
 * [Licence](licence.md)
 * [Support](support.md)
 

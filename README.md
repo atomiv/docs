@@ -86,19 +86,19 @@ This is where Atomiv can help - by providing a template for the entire project a
 
 Are you an IT Leader who wants to grow high performance teams and deliver successful projects?
 
-{% page-ref page="leadership.md" %}
+{% page-ref page="foundations/leadership.md" %}
 
 Are you a Software Architect who wants to design software architecture for maintainable and extensible software systems?
 
-{% page-ref page="architecture.md" %}
+{% page-ref page="foundations/architecture.md" %}
 
 Are you a Software Developer who wants to write software faster, with less code and higher quality?
 
-{% page-ref page="development.md" %}
+{% page-ref page="foundations/development.md" %}
 
 Are you a Test Automation Engineer who wants to write automated tests faster and make them easy to maintain?
 
-{% page-ref page="testing.md" %}
+{% page-ref page="foundations/testing.md" %}
 
 All the best in your journey towards successful IT projects and products - reach the next level with the Atomiv.
 
