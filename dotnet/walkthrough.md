@@ -21,7 +21,7 @@ Domain entities and associated business logic are implemented in the project MyW
 
 #### Define an entity and its identity
 
-Customer is an Entity:
+Entities represent concepts which are uniquely identifiable, and may contain business logic. In the template, entities are Customer, Product and Order. In the following class, we define the Customer entity by inheriting from the Entity base class and specifying that CustomerIdentity is the identifier for Customer entities:
 
 ```csharp
     public class Customer : Entity<CustomerIdentity>
@@ -39,7 +39,7 @@ Customer is an Entity:
     }
 ```
 
-CustomerIdentity is used to identify the customer, and the underlying type is Guid:
+An Identity is used to identify an Entity. In this example, CustomerIdentity is used to identify the customer, and the underlying type is Guid:
 
 ```csharp
     public class CustomerIdentity : Identity<Guid>
@@ -52,7 +52,7 @@ CustomerIdentity is used to identify the customer, and the underlying type is Gu
 
 #### Define a factory for the entity
 
-Firstly we define the interface for the factory:
+Factories are used to construct new instances of Entities. The following is the interface for the ICustomerFactory:
 
 ```csharp
     public interface ICustomerFactory : IFactory
@@ -61,7 +61,7 @@ Firstly we define the interface for the factory:
     }
 ```
 
-Then we define the factory implementation:
+The implementation of the factory is inside CustomerFactory:
 
 ```csharp
     public class CustomerFactory : ICustomerFactory
@@ -83,6 +83,8 @@ Then we define the factory implementation:
 ```
 
 #### Define repositories for the entity
+
+Repositories are used to retrieve entities from a persistence mechanism as well as to persist changes in entities \(the underlying persistence mechanism might be an SQL database, or NoSQL database, or file system or anything else - the domain is not concerned with the actual implementation, since that will be handled in the Infrastructure layer:
 
 This is a mutable repository:
 
@@ -111,16 +113,6 @@ This is a readonly repository:
 ```
 
 
-
-
-
-
-
-Optivem.Northwind.Core.Domain.Entity. For example, we have the Supplier entity:
-
- Interfaces for repositories are declared in the project Optivem.Northwind.Core.Domain.Repository. For example, we have ISupplierRepository, which is the repository interface for working with suppliers:
-
-Aside from adding the repository in Optivem.Northwind.Core.Domain.Repository, we also register it in the unit of work INorthwindUnitOfWork. For example, we register ISupplierRepository as a property below:
 
 ### Application
 
