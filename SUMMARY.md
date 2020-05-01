@@ -11,7 +11,7 @@
 * [Licence](licence.md)
 * [Support](support.md)
 
-## C\#
+## C\# <a id="cs"></a>
 
-* [Get Started](c/get-started.md)
+* [Get Started](cs/get-started.md)
 
