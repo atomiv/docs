@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this walkthrough, you will familiarize yourself with the template structure, and will be able to implement additional functionality. The template already contains Customers, Products and Orders, so therefore for the purposes of this walkthrough, we will be implementing Suppliers.
+In this walkthrough, you will familiarize yourself with the template structure, which contains Customers, Products and Orders. We recommend for you to add additional functionality, e.g. Suppliers, to famiarilize yourself with the template.
 
 ## Structure
 
@@ -18,6 +18,101 @@ The template project contains the following layers:
 ### Domain
 
 Domain entities and associated business logic are implemented in the project MyWebShop.Core.Domain.
+
+#### Define an entity and its identity
+
+Customer is an Entity:
+
+```csharp
+    public class Customer : Entity<CustomerIdentity>
+    {
+        public Customer(CustomerIdentity id, string firstName, string lastName)
+            : base(id)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+        }
+
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+    }
+```
+
+CustomerIdentity is used to identify the customer, and the underlying type is Guid:
+
+```csharp
+    public class CustomerIdentity : Identity<Guid>
+    {
+        public CustomerIdentity(Guid value) : base(value)
+        {
+        }
+    }
+```
+
+#### Define a factory for the entity
+
+Firstly we define the interface for the factory:
+
+```csharp
+    public interface ICustomerFactory : IFactory
+    {
+        Customer Create(string firstName, string lastName);
+    }
+```
+
+Then we define the factory implementation:
+
+```csharp
+    public class CustomerFactory : ICustomerFactory
+    {
+        private readonly IIdentityGenerator<CustomerIdentity> _customerIdentityGenerator;
+
+        public CustomerFactory(IIdentityGenerator<CustomerIdentity> customerIdentityGenerator)
+        {
+            _customerIdentityGenerator = customerIdentityGenerator;
+        }
+
+        public Customer Create(string firstName, string lastName)
+        {
+            var id = _customerIdentityGenerator.Next();
+
+            return new Customer(id, firstName, lastName);
+        }
+    }
+```
+
+#### Define repositories for the entity
+
+This is a mutable repository:
+
+```csharp
+    public interface ICustomerRepository : IRepository
+    {
+        Task AddAsync(Customer customer);
+
+        Task<Customer> FindAsync(CustomerIdentity customerId);
+
+        Task RemoveAsync(CustomerIdentity customerId);
+
+        Task UpdateAsync(Customer customer);
+    }
+```
+
+This is a readonly repository:
+
+```csharp
+    public interface ICustomerReadonlyRepository : IRepository
+    {
+        Task<bool> ExistsAsync(Guid customerId);
+
+        Task<long> CountAsync();
+    }
+```
+
+
+
+
 
 
 
