@@ -102,8 +102,6 @@ Are you a Software Architect who wants to design software architecture for maint
 
 Are you a Software Developer who wants to write software faster, with less code and higher quality?
 
-{% page-ref page="foundations/development.md" %}
-
 Are you a Test Automation Engineer who wants to write automated tests faster and make them easy to maintain?
 
 {% page-ref page="qa/overview.md" %}

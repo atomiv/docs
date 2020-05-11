@@ -5,7 +5,6 @@
 ## Foundations
 
 * [IT Leadership](foundations/leadership.md)
-* [Software Development](foundations/development.md)
 
 ## Architecture
 
