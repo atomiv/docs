@@ -13,6 +13,8 @@
 * [Features](implementation/features.md)
 * [Teams](implementation/usage.md)
 * [Projects](implementation/untitled.md)
+* [Products](implementation/products.md)
+* [Methodologies](implementation/methodologies.md)
 
 ## Architecture
 
