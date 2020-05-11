@@ -10,9 +10,17 @@ Atomiv is open source \(MIT licence\) so it can be freely used both for commerci
 
 ## Which technologies does the Atomiv support?
 
+### .NET Core 3.1
+
 Currently, Atomiv is focused on backend web development and it targets .NET Core 3.1.
 
-In the future, we also have plans to support Java \(Spring\) and PHP \(Laravel\) backend applications.
+### Java Spring
+
+In the future, we plan to support Java 9, using Spring Framework, Hibernate, etc. This section will be updated with instructions.
+
+### PHP Laravel
+
+In the future we plan to support PHP using Laravel.
 
 ## What results does the Atomiv provide?
 
