@@ -19,6 +19,7 @@ Furthermore, it is rooted in the following design and development approaches:
 * Test Driven Development \(TDD\) \(Kent Beck\)
 * Acceptance Test Driven Development \(ATDD\)
 * Behavior Driven Development \(BDD\)
+* Command Query Responsibility Segregation \(CQRS\)
 
 ### Dependencies
 

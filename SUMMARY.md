@@ -4,15 +4,15 @@
 
 ## Motivation
 
+* [Principles](motivation/principles.md)
 * [Challenges](motivation/challenges.md)
 * [Objectives](motivation/objectives.md)
-* [Principles](motivation/principles.md)
-* [Features](motivation/features.md)
-* [Usage](motivation/usage.md)
 
 ## Implementation
 
-* [Untitled](implementation/untitled.md)
+* [Features](implementation/features.md)
+* [Teams](implementation/usage.md)
+* [Projects](implementation/untitled.md)
 
 ## Architecture
 
