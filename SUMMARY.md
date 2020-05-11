@@ -4,7 +4,9 @@
 
 ## Foundations
 
-* [IT Leadership](foundations/leadership.md)
+* [Principles](foundations/principles.md)
+* [Features](foundations/features.md)
+* [Implementation](foundations/implementation.md)
 
 ## Architecture
 
