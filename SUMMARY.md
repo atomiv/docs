@@ -5,8 +5,11 @@
 ## Foundations
 
 * [IT Leadership](foundations/leadership.md)
-* [Software Architecture](foundations/architecture.md)
 * [Software Development](foundations/development.md)
+
+## Architecture
+
+* [Overview](architecture/overview.md)
 
 ## .NET Core <a id="dotnet"></a>
 

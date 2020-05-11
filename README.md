@@ -90,7 +90,7 @@ Are you an IT Leader who wants to grow high performance teams and deliver succes
 
 Are you a Software Architect who wants to design software architecture for maintainable and extensible software systems?
 
-{% page-ref page="foundations/architecture.md" %}
+{% page-ref page="architecture/overview.md" %}
 
 Are you a Software Developer who wants to write software faster, with less code and higher quality?
 
