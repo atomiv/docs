@@ -7,9 +7,6 @@
 * [IT Leadership](foundations/leadership.md)
 * [Software Architecture](foundations/architecture.md)
 * [Software Development](foundations/development.md)
-* [Test Automation](foundations/testing.md)
-* [Licence](licence.md)
-* [Support](support.md)
 
 ## .NET Core <a id="dotnet"></a>
 
@@ -22,4 +19,13 @@
 * [Overview](angular/overview.md)
 * [Get Started](angular/get-started.md)
 * [Walkthrough](angular/walkthrough.md)
+
+## QA
+
+* [Overview](qa/overview.md)
+
+## About
+
+* [Licence](licence.md)
+* [Support](support.md)
 

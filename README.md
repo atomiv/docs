@@ -98,7 +98,7 @@ Are you a Software Developer who wants to write software faster, with less code 
 
 Are you a Test Automation Engineer who wants to write automated tests faster and make them easy to maintain?
 
-{% page-ref page="foundations/testing.md" %}
+{% page-ref page="qa/overview.md" %}
 
 All the best in your journey towards successful IT projects and products - reach the next level with the Atomiv.
 
