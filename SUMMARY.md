@@ -2,17 +2,21 @@
 
 * [Overview](README.md)
 
-## Foundations
+## Motivation
 
-* [Challenges](foundations/challenges.md)
-* [Objectives](foundations/objectives.md)
-* [Principles](foundations/principles.md)
-* [Features](foundations/features.md)
-* [Usage](foundations/usage.md)
+* [Challenges](motivation/challenges.md)
+* [Objectives](motivation/objectives.md)
+* [Principles](motivation/principles.md)
+* [Features](motivation/features.md)
+* [Usage](motivation/usage.md)
+
+## Implementation
+
+* [Untitled](implementation/untitled.md)
 
 ## Architecture
 
-* [History](architecture/history.md)
+* [System](architecture/history.md)
 * [Layers](architecture/layers.md)
 * [Slices](architecture/slices.md)
 
