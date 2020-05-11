@@ -1,6 +1,16 @@
-# Overview
+# Challenges
 
-## Challenges
+## Leadership Challenges
+
+As an IT leader, you have probably encountered the following challenges:
+
+* How can we grow high performance software development teams?
+* How can we reduce the number of bugs in our software?
+* How can we speed up the development of new features?
+* How can we systematically achieve success?
+* How can we make our customers really happy?
+
+## Architecture Challenges
 
 One of the key challenges in software development is the overall productivity of the development team and consequently - the total cost of ownership, i.e. cost of development and cost of maintenance. One of the key factors which affect the total cost of software development is the software architecture.
 
@@ -15,22 +25,19 @@ As a software architect, your faced with challenges in design software architect
 * Maintainability & testibility
 * Scalability and portability
 
-## Objectives
+## Development Challenges
 
-The objectives of Atomiv Architecture Standards are are to develop software architecture systems which satisfy the following characteristics:
+As a software developer, you have likely faced the following challenges:
 
-* Modularity & re-usability
-* Extensibility & flexibility
-* Maintainability & testibility
-* Scalability and portability
+* How to meet project deadlines?
+* How to write clean maintainable code?
+* How to adopt TDD principles?
+* How to minimize number of bugs?
 
-This enables software teams to achieve the following:
+## Testing Challenges
 
-* Decrease overall development and maintenance costs
-* Enable high level of testability and high quality level
-* Provide a standardized foundation for software development teams
+As a Test Automation Engineer, you are faced with challenges in effectively designing, implementing and maintaining automated tests:
 
-
-
-
+* REST API tests
+* Web Browser tests
 

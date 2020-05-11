@@ -1,4 +1,4 @@
-# Implementation
+# Usage
 
 ## How can we use Atomiv for new projects?
 
