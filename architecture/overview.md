@@ -15,13 +15,6 @@ As a software architect, your faced with challenges in design software architect
 * Maintainability & testibility
 * Scalability and portability
 
-As a software developer, you have likely faced the following challenges:
-
-* How to meet project deadlines?
-* How to write clean maintainable code?
-* How to adopt TDD principles?
-* How to minimize number of bugs?
-
 ## Objectives
 
 The objectives of Atomiv Architecture Standards are are to develop software architecture systems which satisfy the following characteristics:
@@ -37,7 +30,7 @@ This enables software teams to achieve the following:
 * Enable high level of testability and high quality level
 * Provide a standardized foundation for software development teams
 
-Atomiv is designed to help you in your everyday job, helping to to write less code for mundane tasks and providing a solid architecture so that you can get started quickly.
+
 
 ## Solutions
 
