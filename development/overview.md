@@ -15,3 +15,5 @@ Atomiv is designed to help you in your everyday job, helping to to write less co
 
 ## Solutions
 
+We provide templates based on Atomiv Architecture Standards. These templates provide a ready-made project with all the layers described above as well as sample code.
+

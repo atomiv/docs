@@ -9,6 +9,9 @@
 ## Architecture
 
 * [Overview](architecture/overview.md)
+* [History](architecture/history.md)
+* [Layers](architecture/layers.md)
+* [Slices](architecture/slices.md)
 
 ## Development
 
