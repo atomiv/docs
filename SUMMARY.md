@@ -36,6 +36,8 @@
 
 ## Process
 
+* [Get started](process/get-started.md)
+
 ## About
 
 * [Licence](licence.md)
