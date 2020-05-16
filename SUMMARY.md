@@ -2,14 +2,9 @@
 
 * [Overview](README.md)
 
-## Motivation
-
-* [Principles](motivation/principles.md)
-* [Challenges](motivation/challenges.md)
-* [Objectives](motivation/objectives.md)
-
 ## Architecture
 
+* [Principles](architecture/principles.md)
 * [System](architecture/history.md)
 * [Layers](architecture/layers.md)
 * [Slices](architecture/slices.md)
