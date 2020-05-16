@@ -8,13 +8,6 @@
 * [Challenges](motivation/challenges.md)
 * [Objectives](motivation/objectives.md)
 
-## Implementation
-
-* [Features](implementation/features.md)
-* [Projects](implementation/untitled.md)
-* [Products](implementation/products.md)
-* [Methodologies](implementation/methodologies.md)
-
 ## Architecture
 
 * [System](architecture/history.md)
@@ -25,6 +18,7 @@
 
 * [Get Started](dotnet/get-started.md)
 * [Walkthrough](dotnet/walkthrough.md)
+* [Implementation](dotnet/implementation.md)
 
 ## Angular
 
@@ -35,7 +29,9 @@
 
 ## Process
 
-* [Get started](process/get-started.md)
+* [Methodologies](process/methodologies.md)
+* [Roles](process/get-started.md)
+* [Phases](process/phases.md)
 
 ## About
 
