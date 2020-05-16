@@ -1,10 +1,10 @@
 # Table of contents
 
 * [Overview](README.md)
+* [Principles](principles.md)
 
 ## Architecture
 
-* [Principles](architecture/principles.md)
 * [System](architecture/history.md)
 * [Layers](architecture/layers.md)
 * [Slices](architecture/slices.md)
