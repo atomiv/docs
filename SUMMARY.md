@@ -2,12 +2,6 @@
 
 * [Overview](README.md)
 
-## Process
-
-* [Methodologies](process/methodologies.md)
-* [Roles](process/get-started.md)
-* [Phases](process/phases.md)
-
 ## Architecture
 
 * [Principles](architecture/principles.md)
@@ -27,6 +21,12 @@
 * [Walkthrough](angular/walkthrough.md)
 
 ## QA
+
+## Process
+
+* [Methodologies](process/methodologies.md)
+* [Roles](process/get-started.md)
+* [Phases](process/phases.md)
 
 ## About
 
