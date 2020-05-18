@@ -32,6 +32,9 @@
 
 ## QA
 
+* [Manual Testing](manual-testing.md)
+* [Automated Testing](automated-testing.md)
+
 ## System Administration
 
 * [Software](system-administration/software.md)
