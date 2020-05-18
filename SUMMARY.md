@@ -22,18 +22,18 @@
 
 ## QA
 
-## Process
-
-* [Methodologies](process/methodologies.md)
-* [Roles](process/get-started.md)
-* [Phases](process/phases.md)
-
 ## System Administration
 
 * [Software](system-administration/software.md)
 * [Hardware](system-administration/hardware.md)
 * [Network](system-administration/network.md)
 * [Security](system-administration/security.md)
+
+## Process
+
+* [Methodologies](process/methodologies.md)
+* [Roles](process/get-started.md)
+* [Phases](process/phases.md)
 
 ## About
 
