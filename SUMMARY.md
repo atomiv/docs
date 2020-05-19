@@ -9,6 +9,13 @@
 * [Agile](project-management/agile.md)
 * [Waterfall](project-management/waterfall.md)
 
+## Business Analysis
+
+* [Overview](business-analysis/overview.md)
+* [Processes](business-analysis/processes.md)
+* [Use Cases](business-analysis/use-cases.md)
+* [Domain](business-analysis/domain.md)
+
 ## Architecture
 
 * [Overview](architecture/overview.md)
