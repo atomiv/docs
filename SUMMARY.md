@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Demo](demo.md)
 * [Principles](principles.md)
+* [Business Case](demo.md)
 
 ## Project Management
 
