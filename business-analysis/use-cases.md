@@ -15,7 +15,7 @@ Queries:
 * View all list of all employees within the company
 * Deactivate Business account
 
-### Employees
+### Procurement Managers
 
 Commands:
 
@@ -32,6 +32,20 @@ Queries:
 
 * Browse products in the product catalog 
 * View products in the product catalog
+
+### 
+
+### Pricing Managers
+
+Commands:
+
+
+
+Queries:
+
+
+
+
 
 ## Sales Use Cases
 
