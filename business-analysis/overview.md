@@ -1,8 +1,8 @@
 # Overview
 
-In this section, we provide a template for business analysis, based on analysing business processes and requirements for a sample eCommerce application.
+In this section, we provide a template for business analysis, based on analyzing business processes and requirements for Acme Online Store.
 
-Firstly, we provide a template for documenting business processes:
+Firstly, we provide a template for documenting business processes for Acme Corporation:
 
 {% page-ref page="processes.md" %}
 

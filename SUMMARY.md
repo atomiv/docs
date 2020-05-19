@@ -2,7 +2,10 @@
 
 * [Overview](README.md)
 * [Principles](principles.md)
-* [Business Case](demo.md)
+
+## Project Request
+
+* [Business Case](project-request/business-case.md)
 
 ## Project Management
 
