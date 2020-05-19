@@ -52,6 +52,7 @@
 
 ## System Administration
 
+* [Responsibilities](system-administration/responsibilities.md)
 * [Configuration](system-administration/configuration.md)
 * [Maintenance](system-administration/maintenance.md)
 * [Network](system-administration/network.md)
