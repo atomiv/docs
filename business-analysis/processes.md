@@ -10,11 +10,17 @@ We are making a software application "Erimont" which is an online shop builder. 
 * Customers
 * Suppliers
 
-## Business Process
+## Catalog Process
 
-A Business sells products to its customers, and purchases products from suppliers.
+Acme Corporation Employees need to be able to manage products:
 
-Business can set the retail prices for the products and also for each product choose the supplier for that product.
+1. Employee browses the Product Catalog
+2. Employee adds additional products to the Product Catalog
+3. Employee unlists products in the Product Catalog
+4. Employee relists products in the Product Catalog
+5. Employee selects the Supplier for each product
+6. Employee sets the retail price for each product
+7. Employee sets product price discounts
 
 ## Sales Process
 
@@ -34,8 +40,8 @@ The primary purchasing process is triggered either automatically \(when stock fo
 
 1. System creates a purchase order
 2. System sends purchase order
-3. Supplier fulfills the order and ships the products to the Business
-4. Business records the received products within inventory
-5. Supplier sends an invoice to the Business
-6. Business makes payment for the invoice
+3. Supplier fulfills the order and ships the products to Acme
+4. Acme ERP records the received products within inventory
+5. Supplier sends an invoice to the Acme
+6. Acme makes payment for the invoice
 

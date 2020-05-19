@@ -24,7 +24,7 @@ After some additional calls, we have some high level discussions with Acme Corpo
 
 * Administrators need to be able to manage list of Employees and Managers of Acme Corporation
 * Employees need to be able to log into Acme Online Store and to manage the product catalog
-* Customers should be able to register and to log into the Acme Online Store and to browse through the products, add products to their shopping cart, checkout their order and make payments online
-* Customers should be able to see real-time statuses for their orders, and to get indications of expected delivery dates.
+* Customers need to be able to register and to log into the Acme Online Store and to browse through the products, add products to their shopping cart, checkout their order and make payments online
+* Customers need to be able to see real-time statuses for their orders, and to get indications of expected delivery dates.
 * Managers need to be able to able to get analytics regarding order sales in order to be able to make business decisions and to see product profitability and the factors which affect sales.
 
