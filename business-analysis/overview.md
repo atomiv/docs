@@ -1,6 +1,6 @@
 # Overview
 
-In this section, we provide a template for business analysis using the B2B eCommerce application.
+In this section, we provide a template for business analysis, based on analysing business processes and requirements for a sample eCommerce application.
 
 Firstly, we provide a template for documenting business processes:
 

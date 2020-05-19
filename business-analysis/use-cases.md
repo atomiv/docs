@@ -57,7 +57,7 @@ Queries:
 
 ## Supplier Use Cases
 
-### Employees
+### Catalog Managers
 
 Commands:
 
@@ -65,12 +65,22 @@ Commands:
 * Edit products on the product catalog
 * Unlist products from the product catalog \(i.e. products which are no longer sold\)
 * Relist products on the product catalog \(i.e. these products become active again\)
-* Pack orders and ship orders
 
 Queries:
 
-* View products on the product catalog
-* View orders from customers
+* Browse products from the product catalog 
+* View products from the product catalog
+
+## Packers
+
+Commands:
+
+* Fulfill purchase orders - packing and sending to shipper
+
+Queries:
+
+* Browse purchase orders
+* View purchase orders
 
 ### Administrators
 
@@ -85,7 +95,9 @@ Queries:
 
 ## System Use Cases
 
-Batch Processor
+Commands:
+
+* Automatically create supplier orders
 
 
 
