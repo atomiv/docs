@@ -44,8 +44,8 @@
 
 ## System Administration
 
-* [Software](system-administration/software.md)
-* [Hardware](system-administration/hardware.md)
+* [Configuration](system-administration/configuration.md)
+* [Maintenance](system-administration/maintenance.md)
 * [Network](system-administration/network.md)
 * [Security](system-administration/security.md)
 
