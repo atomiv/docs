@@ -53,6 +53,7 @@ Queries:
 
 Commands:
 
+* Register Customer account
 * Browse products in the Product Catalog
 * Add products to the Shopping Cart
 * Remove products from the Shopping Cart
@@ -98,6 +99,7 @@ Queries:
 
 Commands:
 
+* Register Supplier account
 * Approve Purchase Orders
 * Reject Purchase Orders
 * Ship Purchase Orders
