@@ -2,52 +2,40 @@
 
 ## Business Overview
 
-We are making a software application "Erimont" which is an online shop, like eBay, Amazon, etc.. This was chosen as 
+We are making a software application "Erimont" which is an online shop builder. Erimont enables businesses to create business accounts, and then they can add products which they sell. When customers go the to the webshop for that business, they can sign up as customers, add products to the card, and make an order as well as payments for the order.
 
 ## Actors
 
+* Businesses
 * Customers
 * Suppliers
 
+## Business Process
+
+A Business sells products to its customers, and purchases products from suppliers.
+
+Business can set the retail prices for the products and also for each product choose the supplier for that product.
+
 ## Sales Process
 
-The Sales Process, from the perspective of the Wholesaler is as follows:
+The primary sales process is triggered by the Customer:
 
-* Retailer creates a Purchase Order
-* Retailer sends the Purchase Order to the Wholesaler
-* Wholesales creates and sends a corresponding Sales Order to the Retailer
-* 
+1. Customer browses the Product Catalog
+2. Customer adds products to the Shopping Cart
+3. Customer submits order
+4. Customer makes a payment
+5. Business receives the payment
+6. Order is shipped to the customer
+7. Inventory is updated based on the shipped products
 
+## Purchasing Process
 
+The primary purchasing process is triggered either automatically \(when stock for a product goes below a minimum\) or when the procurement department specifically makes a purchase order:
 
-
-PROCUREMENT PROCESS
-
-Trigger inventory requirement Create purchase order to supplier Approve purchase order to supplier Send purchase order to supplier Receive merchandise from supplier \(receive products into inventory\) Receive invoice from supplier Send payment to supplier \(pay supplier\)
-
-FULFILLMENT PROCESS
-
-Customer creates order Prepare shipping info Create customer invoice Ship order Receive payment
-
-
-
-
-
-Business Customers are companies. Their employees need to make customer orders, where they can choose which products they want to buy, specify the quantities, and then make payments. Private Customers also need to make customer orders. After the order is submitted and payment is made, then the order is shipped to the customer.
-
-## Purchasing Processes
-
-Suppliers are Companies. Their employees can manage the product catalog. They have scanners so that when orders are shipped, inventory is updated.
-
-
-
-
-
-PROCUREMENT PROCESS
-
-Trigger inventory requirement Create purchase order to supplier Approve purchase order to supplier Send purchase order to supplier Receive merchandise from supplier \(receive products into inventory\) Receive invoice from supplier Send payment to supplier \(pay supplier\)
-
-FULFILLMENT PROCESS
-
-Customer creates order Prepare shipping info Create customer invoice Ship order Receive payment
+1. System creates a purchase order
+2. System sends purchase order
+3. Supplier fulfills the order and ships the products to the Business
+4. Business records the received products within inventory
+5. Supplier sends an invoice to the Business
+6. Business makes payment for the invoice
 
