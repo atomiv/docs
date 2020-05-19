@@ -3,6 +3,12 @@
 * [Overview](README.md)
 * [Principles](principles.md)
 
+## Project Management
+
+* [Overview](project-management/overview.md)
+* [Agile](project-management/agile.md)
+* [Waterfall](project-management/waterfall.md)
+
 ## Architecture
 
 * [System](architecture/history.md)
@@ -41,12 +47,6 @@
 * [Hardware](system-administration/hardware.md)
 * [Network](system-administration/network.md)
 * [Security](system-administration/security.md)
-
-## Process
-
-* [Methodologies](process/methodologies.md)
-* [Roles](process/get-started.md)
-* [Phases](process/phases.md)
 
 ## About
 
