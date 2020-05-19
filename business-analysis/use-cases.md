@@ -83,3 +83,11 @@ Queries:
 
 * View all list of all employees within the company
 
+## System Use Cases
+
+Batch Processor
+
+
+
+
+
