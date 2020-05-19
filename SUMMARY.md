@@ -20,6 +20,7 @@
 ## Architecture
 
 * [Overview](architecture/overview.md)
+* [Microservices](architecture/microservices.md)
 * [System](architecture/history.md)
 * [Layers](architecture/layers.md)
 * [Slices](architecture/slices.md)
