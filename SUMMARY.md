@@ -11,6 +11,7 @@
 
 ## Architecture
 
+* [Overview](architecture/overview.md)
 * [System](architecture/history.md)
 * [Layers](architecture/layers.md)
 * [Slices](architecture/slices.md)
