@@ -80,11 +80,17 @@ Employees can see an orders data table, with the following details:
 
 Additionally, there is a "New Order" button which is used when some customers don't create an order online but instead call ACME via the phone, so then orders are able to be placed on behalf of customers by ACME employees \(in this case the system marks the order as manually created by the specific employee\).
 
-When the employee selects an order they can click on "View" to open the order. It is possible for employees to manually edit the order on behalf of the customer \(in this case the system marks the order as manually edited by the specific employee\).
+When the employee selects an order they can click on "View" to open the order. It is possible for employees to manually edit the order on behalf of the customer \(in this case the system marks the order as manually edited by the specific employee\). Orders can be manually edited only before they are "Shipped".
 
 Initially, when an order was confirmed by the customer on the ACME Online Store, its status is is "Placed". The employee can then click buttons "Packed" \(if the order was successfully packed\) or "Cancelled" \(if the customer called to cancel the order or if the order was not able to be fulfilled or any other reason\). Once then employee clicks on "Packed", then the next buttons that appear is "Shipped" \(when the order is loaded to the shipping company truck\) or "Cancelled". After the order is "Shipped", then the employee is not able to set status any further.
 
-From that point onwards, since ACME Backoffice is connected to ACME ERP, which is connected to shippers, ACME Backoffice synchronizes order statuses as follows: the shipping company 
+From that point onwards, since ACME Backoffice is connected to ACME ERP, which is connected to shippers, ACME Backoffice synchronizes order statuses as follows: the ACME ERP gets statuses from the shipping company "Delivered" \(the order was delivered to the customer\) or "Delivery Failed" \(the order could not be delivered to the customer for some reason\).
+
+## Customers
+
+
+
+
 
 ## ACME Online Store
 
