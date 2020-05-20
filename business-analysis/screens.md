@@ -1,4 +1,4 @@
-# Web Applications
+# Applications
 
 ## ACME Identity
 
