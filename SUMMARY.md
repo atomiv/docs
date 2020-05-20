@@ -19,7 +19,7 @@
 * [Processes](business-analysis/processes.md)
 * [Use Cases](business-analysis/use-cases.md)
 * [Domain](business-analysis/domain.md)
-* [Screens](business-analysis/screens.md)
+* [Web Applications](business-analysis/screens.md)
 
 ## Architecture
 
