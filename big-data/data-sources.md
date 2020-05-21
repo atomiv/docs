@@ -6,7 +6,7 @@ Data sources represent a fundamental part of the big data system. These componen
 
 ## Types of sources
 
-The most common sources of the data can be split into these 4 categories:
+The most common sources of the data can be split into these **4** categories:
 
 * Transactions
 * Social media
@@ -23,15 +23,65 @@ This category refers to the activity on social platforms. Examples of this activ
 
 ### Machines
 
-This category refers to the industrial equipment, sensor measurements, generated in real-time, and the company's server logs. It is a standard data source in the **IoT** \(Internet of Things\) solutions. It is useful for analyzing the system performance, tracking the state in real-time, sending notifications, predicting system behavior, and reacting to failure scenarios.
+This category refers to the industrial equipment, sensor measurements, generated in real-time, and the company's server logs. It is a standard data source in the **IoT** solutions. It is useful for analyzing the system performance, tracking the state in real-time, sending notifications, predicting system behavior, and reacting to failure scenarios.
 
 ### Customers
 
-This category refers to users that use the company's web or mobile client applications. Data can be generated directly by a user, or indirectly by tracking user behavior. It is useful for adapting ads and recommendation engines.
+This category refers to users that use the company's web or mobile client applications. Data can be generated directly by a user, or indirectly by monitoring user behavior. It is useful for adapting ads and recommendation engines.
 
 ## Data format
 
-...
+Data from sources can come in multiple forms, formats. Format refers to the structure and organization. It can be split into **4** categories, categories are put in decreasing order of the occurrence in collected datasets:
+
+* Structured 
+* Semi-structured
+* Quasi-structured
+* Unstructured
+
+Most of the generated data in the big data context is unstructured or semi-structured.
+
+### Structured
+
+Format with predefined data types organized in a fixed structure. Examples: traditional **RDBMS**, **CSV**, spreadsheets.
+
+### Semi-structured
+
+Format with a self-describing structure that is not fixed. Technically speaking, it has semantic tags or markers which is used to group types of data and enforce hierarchies within the data. Examples: **XML**, **JSON**.
+
+### Quasi-structured
+
+Format with inconsistent types and values, that has a observable structure pattern that cannot be easily parsed. Examples: web pages, web click-streams, google search results.
+
+### Unstructured
+
+Format without data types, that has no inherent, identifiable structure. It cannot be processed and analyzed using the conventional methods. Examples: text documents, email messages, **PDF**, word, images, videos.
+
+## Sources in our solution
+
+\[Describe what data source are used in the Erimont application and their format\]
+
+## Acronyms
+
+* **IoT** - Internet of things
+* **RDBMS** - Relational database management system
+* **CSV** - Comma separated values
+* **XML** - Extensible markup language
+* **JSON** - JavaScript object notation
+* **PDF** - Portable document format
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
