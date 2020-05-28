@@ -162,6 +162,7 @@ There's a left navigation bar, showing the categories:
 The content page has the following:
 
 * Featured Products
+* Shopping recommendations
 * All Products
 
 Featured Products:
@@ -176,6 +177,11 @@ Featured Products:
   * Product Price \(large font\)
   * Product Image \(large size\)
   * "Add to Cart" button \(large size\)
+
+Shopping recommendations:
+
+* This section shows the set of personalized products based on the customer's shopping history, products recently viewed, and location.
+* Products are displayed in the same manner as the section Featured Products.
 
 All Products:
 
