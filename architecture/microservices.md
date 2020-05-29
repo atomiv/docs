@@ -18,19 +18,8 @@ The biggest advantage of loose coupling is scalability. Scalability is the abili
 
 The challenge that also arises after the transition from a monolithic to a Microservice architecture is to change the way of communication. The two types of protocols used are synchronous protocols and asynchronous messaging protocols:
 
-* Synchronous protocol - The most well-known synchronous protocol is HTTP. With this type of protocol,
-
-  ```text
-                     the client sends a request and waits for a response from the server.
-                     An important characteristic  is that the client can continue executing only when
-                     it receives a response from the server.
-  ```
-
-* Asynchronous Protocol - An asynchronous protocol such as AMQP allows \(Advanced Message Queuing Protocol\) that the client
-
-  ```text
-                      does not have to wait for the server response and may proceed with the execution.
-  ```
+* Synchronous protocol - The most well-known synchronous protocol is HTTP. With this type of protocol, the client sends a request and waits for a response from the server. An important characteristic  is that the client can continue executing only when it receives a response from the server.
+* Asynchronous Protocol - An asynchronous protocol such as AMQP allows \(Advanced Message Queuing Protocol\) that the client does not have to wait for the server response and may proceed with the execution.
 
 Like any other distributed system Microservice architecture in addition to advantages brings additional complexity and new challenges in implementation. The transition from a monolithic to a Microservice architecture is best reported when the application becomes extensive and therefore difficult to maintain and deploy new versions on the server. However, the transition to Microservice architecture brings not only convenience but also several difficulties. First of all, the application becomes more complex due to the nature of this distributed architecture.
 
