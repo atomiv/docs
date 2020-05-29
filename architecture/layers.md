@@ -2,9 +2,35 @@
 
 ## Core
 
-At the system center, we have the Core Layer, composed of the Domain Layer and Application Layer. The Domain Layer implements the business logic. The Application Layer contains thin application services, which execute use cases \(and use cases delegate execution to the domain\). Inside the Core Layer, any external dependencies are interfaces \(e.g. Domain Layer contains repository interfaces for data persistence\).
+At the system center, we have the Core Layer, composed of the Domain Layer and Application Layer.
 
-The Core Layer contains the Domain Layer and Application Layer. The Domain Layer is based on Domain Driven Design \(DDD\) principles, containing entities and aggregate roots, value objects and repository interfaces. There model the domain, implement the business logic, the “heart” of the system. The Application Layer consists of application services, which in turn execute use cases, these manage the flow, for example, calling repositories to retrieve aggregate roots, executing some actions, and then persisting the aggregate roots. The Application Layer consists of the Application Layer interfaces \(application service interfaces\) and Application Layer implementation \(application service implementation, use case implementation\). The Domain Layer is self-contained, and the Application Layer depends only on the Domain Layer.
+### Domain Layer
+
+The Domain Layer implements the business logic. The Domain Layer is based on Domain Driven Design \(DDD\) principles, containing entities and aggregate roots, value objects and repository interfaces. There model the domain, implement the business logic, the “heart” of the system. 
+
+Examples:
+
+* **Entities** model key business objects: Customer, Order, Product
+* **Identities** are used to identity the identity of entities throughout their entire lifecycle: CustomerIdentity, OrderIdentity, ProductIdentity
+* **Factories** are used to construct domain entities: CustomerFactory, OrderFactory, ProductFactory
+* **Repositories** are used to retrieve entities from and persist entities to some persistence mechanism: CustomerRepository, OrderRepository, ProductRepository
+
+### Application Layer
+
+The Application Layer contains thin application services, which execute use cases \(and use cases delegate execution to the domain\). Inside the Core Layer, any external dependencies are interfaces \(e.g. Domain Layer contains repository interfaces for data persistence\). The Application Layer consists of application services, which in turn execute use cases, these manage the flow, for example, calling repositories to retrieve aggregate roots, executing some actions, and then persisting the aggregate roots. The Application Layer consists of the Application Layer interfaces \(application service interfaces\) and Application Layer implementation \(application service implementation, use case implementation\). The Domain Layer is self-contained, and the Application Layer depends only on the Domain Layer.
+
+Examples:
+
+* **Commands** specify "write" operations, e.g. creating, updating, performing actions, etc: CreateCustomerCommand, CreateOrderCommand, SubmitOrderCommand, EditProductCommand, etc.
+* **Queries** specify "read" operations, e.g. reading data: BrowseCustomerQuery, ViewCustomerQuery, FilterCustomersQuery, BrowseOrdersQuery, etc.
+* **Command Handlers** implement the actions associated with specific Commands, they implement application-level logic and delegate to the domain for business logic execution: CreateCustomerCommandHandler, CreateOrderCommandHandler, SubmitOrderCommandHandler, EditProductCommandHandler
+* **Application Context** is an application service which provides contextual information associated with some requests
+
+### Common Layer
+
+Contains data primitives which are shared between Domain and Application. This is included for "pragmatic" reasons.
+
+* **Enums** are used to speficy a fixed range of values: OrderStatus, OrderItemStatus
 
 ## Infrastructure
 
