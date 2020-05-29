@@ -7,12 +7,6 @@
 
 * [Business Case](project-request/business-case.md)
 
-## Project Management
-
-* [Overview](project-management/overview.md)
-* [Agile](project-management/agile.md)
-* [Waterfall](project-management/waterfall.md)
-
 ## Business Analysis
 
 * [Overview](business-analysis/overview.md)
@@ -20,6 +14,12 @@
 * [Use Cases](business-analysis/use-cases.md)
 * [Domain](business-analysis/domain.md)
 * [Applications](business-analysis/screens.md)
+
+## Project Management
+
+* [Overview](project-management/overview.md)
+* [Agile](project-management/agile.md)
+* [Waterfall](project-management/waterfall.md)
 
 ## Architecture
 
@@ -52,8 +52,8 @@
 
 ## QA
 
-* [Manual Testing](manual-testing.md)
-* [Automated Testing](automated-testing.md)
+* [Manual Testing](qa/manual-testing.md)
+* [Automated Testing](qa/automated-testing.md)
 
 ## System Administration
 
@@ -71,6 +71,6 @@
 
 ## About
 
-* [Licence](licence.md)
-* [Support](support.md)
+* [Licence](about/licence.md)
+* [Support](about/support.md)
 
