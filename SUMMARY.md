@@ -63,6 +63,12 @@
 * [Network](system-administration/network.md)
 * [Security](system-administration/security.md)
 
+## DevOps
+
+* [Overview](devops/overview.md)
+* [Process](devops/process.md)
+* [Tools](devops/tools.md)
+
 ## About
 
 * [Licence](licence.md)
