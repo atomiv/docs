@@ -50,7 +50,7 @@
 * [Analytical Data Store](big-data/analytical-data-store.md)
 * [Analytics and Reporting](big-data/analytics-and-reporting.md)
 
-## QA
+## Quality Assurance <a id="qa"></a>
 
 * [Manual Testing](qa/manual-testing.md)
 * [Automated Testing](qa/automated-testing.md)
