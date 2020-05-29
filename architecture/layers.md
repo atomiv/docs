@@ -13,7 +13,8 @@ Examples:
 * **Entities** model key business objects: Customer, Order, Product
 * **Identities** are used to identity the identity of entities throughout their entire lifecycle: CustomerIdentity, OrderIdentity, ProductIdentity
 * **Factories** are used to construct domain entities: CustomerFactory, OrderFactory, ProductFactory
-* **Repositories** are used to retrieve entities from and persist entities to some persistence mechanism: CustomerRepository, OrderRepository, ProductRepository
+* **Repositories** are used to retrieve entities from and persist entities to some persistence mechanism: CustomerRepository, OrderRepository, ProductRepository \(note: only the repository interfaces are in the domain layer, not the implementation\)
+* **External Services** \(interfaces\)
 
 ### Application Layer
 
@@ -23,14 +24,14 @@ Examples:
 
 * **Commands** specify "write" operations, e.g. creating, updating, performing actions, etc: CreateCustomerCommand, CreateOrderCommand, SubmitOrderCommand, EditProductCommand, etc.
 * **Queries** specify "read" operations, e.g. reading data: BrowseCustomerQuery, ViewCustomerQuery, FilterCustomersQuery, BrowseOrdersQuery, etc.
-* **Command Handlers** implement the actions associated with specific Commands, they implement application-level logic and delegate to the domain for business logic execution: CreateCustomerCommandHandler, CreateOrderCommandHandler, SubmitOrderCommandHandler, EditProductCommandHandler
+* **Command Handlers** implement the actions associated with specific Commands, they implement application-level logic and delegate to the domain for business logic execution and also repository interfaces \(handlers should be thin, manage flow of actions\): CreateCustomerCommandHandler, CreateOrderCommandHandler, SubmitOrderCommandHandler, EditProductCommandHandler
 * **Application Context** is an application service which provides contextual information associated with some requests
 
 ### Common Layer
 
 Contains data primitives which are shared between Domain and Application. This is included for "pragmatic" reasons.
 
-* **Enums** are used to speficy a fixed range of values: OrderStatus, OrderItemStatus
+* **Enums** are used to specify a fixed range of values: OrderStatus, OrderItemStatus
 
 ## Infrastructure
 
@@ -49,9 +50,9 @@ Examples for application-level infrastructure:
 
 Examples for domain-level infrastructure:
 
-* **Identity Generators** are used to specify the generation mechanism for unique identifiers \(e.g. sequential guids\): CustomerIdentityGenerator, OrderIdentityGenerator, ProductIdentityGenerator
-* **Repositories** are used to implement persistence mechanisms using ORM or raw SQL or any other communication with the underlying database \(or any other system used to store data\): CustomerRepository, OrderRepository, ProductRepository
-* **Services** are used to implement any infrastructural services to the support the domain \(e.g. communication with external services, databases, ERP, CRM, WMS, etc.\): ProductProviderService
+* **IdentityGenerators** are used to specify the generation mechanism for unique identifiers \(e.g. sequential guids\): CustomerIdentityGenerator, OrderIdentityGenerator, ProductIdentityGenerator
+* **Repositories** are used to implement persistence mechanisms using ORM or raw SQL or stored procedures or any other communication with the underlying data storage: CustomerRepository, OrderRepository, ProductRepository \(these are concrete implementations\)
+* **Services** are used to implement any infrastructural services to the support the domain \(e.g. communication with external REST services, external SOAP services, external databases, ERP, CRM, SRM-a, WMS, devices, etc.\): ProductProviderService
 
 Examples for web presentation-level infrastructure:
 
@@ -91,7 +92,7 @@ The Test Layer contains all the automated tests - Unit tests, Integration tests 
 
 * **Unit Tests** for testing units: CustomerUnitTest, OrderUnitTest, ProductUnitTest
 * **Integration Tests** for testing components: CreateCustomerCommandTest, CreateOrderCommandTest, ViewCustomerQueryTest
-* **System Tests** for testing the entire system: This is covered within the Quality Assurance section
+* **System Tests** for testing the entire system \(backend and frontend\): This is covered within the Quality Assurance section \(Automated Testing\)
 
 
 
