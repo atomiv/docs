@@ -69,6 +69,10 @@
 * [Process](devops/process.md)
 * [Tools](devops/tools.md)
 
+## Recruitment
+
+* [Overview](recruitment/overview.md)
+
 ## About
 
 * [Licence](about/licence.md)
