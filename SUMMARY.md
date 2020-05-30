@@ -11,7 +11,7 @@
 
 * [Overview](project-management/overview.md)
 * [Agile](project-management/agile.md)
-* [Waterfall](project-management/waterfall.md)
+* [History](project-management/waterfall.md)
 
 ## Business Analysis
 
