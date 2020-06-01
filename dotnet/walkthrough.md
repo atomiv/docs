@@ -1,5 +1,9 @@
 # Walkthrough
 
+{% hint style="info" %}
+This documentation is still in progress, we are finalizing it during June 2020, this message will disappear when the documentation has been finalized and ready to use.
+{% endhint %}
+
 ## Introduction
 
 In this walkthrough, you will familiarize yourself with the template structure, which contains Customers, Products and Orders. We recommend for you to add additional functionality, e.g. Suppliers, to famiarilize yourself with the template.
