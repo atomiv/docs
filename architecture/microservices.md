@@ -10,7 +10,11 @@ Each microservice should have its own database. This allows the possibility of a
 
 The microservice architecture is also characterized by the use of the API Gateway. API Gateway is a centralized intermediary for communication between microservices and client applications. Instead of the client application communicating directly with the microservices, it will send a Gateway APIrequest and receive a response from it. In the background, the Gateway API communicates with the microservices in charge of that domain.
 
-\(picture\)
+
+
+![Microservice architecture](../.gitbook/assets/microservices.png)
+
+
 
 The biggest challenge in Microservice architecture is defining microservice boundaries. It is necessary to set boundaries in such a way that the services are loosely connected to each other. Loose coupling is a concept of minimizing dependence. When services are loosely connected, a change in one service requires minimal change in another service or no change at all. Loosely connected services should know as little as possible about the service they are working with. One way to determine the boundaries between Microservices is to apply Domain-driven design \(DDD\) when designing a system.
 
