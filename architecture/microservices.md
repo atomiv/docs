@@ -1,6 +1,10 @@
 # Microservices
 
-One of the newer ideas in the field of software architecture is Microservice architecture. The basic idea of this architecture is the splitting of large monolithic systems into smaller independent units. These small independent units have their own life cycle and cooperate with each other.
+### About
+
+One of the newer ideas in the field of software architecture is Microservice architecture. The basic idea of this architecture is the splitting of large monolithic systems into smaller independent units. These small independent units have their own life cycle and cooperate with each other. Applications based on this architecture aim to keep microservices separate \(loosely coupled\) and as cohesive as possible.
+
+### Architectural characteristics
 
 Due to the possibility of dividing the server-side into several microservices, this architecture has great modularity. This allows people working on development to be focused on one or more modules, without knowing the overall business logic of the software, developers need to know only those parts for which it is in charge are enough, as well as the connections with the modules with which these modules cooperate.
 
@@ -8,15 +12,19 @@ Each service performs a small set of functions and each service can be implement
 
 Each microservice should have its own database. This allows the possibility of applying different types of databases for each microservice. An important rule of microservice is data sovereignty. The service cannot directly access the database of another service. Service should ask for those data from service whose database it is. A common way to improve performance is to replicate data between databases. Therefore, it is necessary to take care that when the data in one database change, the redundant data in other databases remain up-to-date.
 
-The microservice architecture is also characterized by the use of the API Gateway. API Gateway is a centralized intermediary for communication between microservices and client applications. Instead of the client application communicating directly with the microservices, it will send a Gateway APIrequest and receive a response from it. In the background, the Gateway API communicates with the microservices in charge of that domain.
-
-
-
 ![Microservice architecture](../.gitbook/assets/microservices.png)
 
+#### API Gateway
+
+The Microservice architecture is also characterized by the use of the API Gateway. API Gateway is a centralized intermediary for communication between microservices and client applications. Instead of the client application communicating directly with the microservices, it will send a Gateway API request and receive a response from it. In the background, the Gateway API communicates with the microservices in charge of that domain.
+
+One of the most important roles of the API gateway is security. It should ensure that only authenticated and authorized users can access API back-end. The API Gateway should be able to integrate with existing and custom authentication providers. This ensures the back-end APIs don’t have to implement this logic and any changes to the authentication schemes require no changes to the back-end. 
+
+API gateway has also one network security advantage. When using API gateway you could be assigned public IP address only to API gateway and private IP addresses to all other back-end APIs. In this way API gateway is only one who is visible from the public network and also only one vulnerable to network attacks.
 
 
-The biggest challenge in Microservice architecture is defining microservice boundaries. It is necessary to set boundaries in such a way that the services are loosely connected to each other. Loose coupling is a concept of minimizing dependence. When services are loosely connected, a change in one service requires minimal change in another service or no change at all. Loosely connected services should know as little as possible about the service they are working with. One way to determine the boundaries between Microservices is to apply Domain-driven design \(DDD\) when designing a system.
+
+The biggest challenge in Microservice architecture is defining microservice boundaries. It is necessary to set boundaries in such a way that the services are loosely coupled to each other. Loose coupling is a concept of minimizing dependence. When services are loosely coupled, a change in one service requires minimal change in another service or no change at all. Loosely coupled services should know as little as possible about the service they are working with. One way to determine the boundaries between Microservices is to apply Domain-driven design \(DDD\) when designing a system.
 
 The biggest advantage of loose coupling is scalability. Scalability is the ability of an application to resist an increase in requests and the number of users without the application itself having to change. This practically means that if the load on one functionality of the system is increased new instances of service are added which implements that functionality.
 
