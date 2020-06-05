@@ -40,10 +40,10 @@
 * [Get Started](angular/get-started.md)
 * [Walkthrough](angular/walkthrough.md)
 
-## Quality Assurance <a id="qa"></a>
+## Quality Assurance
 
-* [Manual Testing](qa/manual-testing.md)
-* [Automated Testing](qa/automated-testing.md)
+* [Manual Testing](quality-assurance/manual-testing.md)
+* [Automated Testing](quality-assurance/automated-testing.md)
 
 ## Big data
 
