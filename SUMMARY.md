@@ -40,6 +40,11 @@
 * [Get Started](angular/get-started.md)
 * [Walkthrough](angular/walkthrough.md)
 
+## Quality Assurance <a id="qa"></a>
+
+* [Manual Testing](qa/manual-testing.md)
+* [Automated Testing](qa/automated-testing.md)
+
 ## Big data
 
 * [Data Sources](big-data/data-sources.md)
@@ -49,11 +54,6 @@
 * [Machine Learning](big-data/machine-learning.md)
 * [Analytical Data Store](big-data/analytical-data-store.md)
 * [Analytics and Reporting](big-data/analytics-and-reporting.md)
-
-## Quality Assurance <a id="qa"></a>
-
-* [Manual Testing](qa/manual-testing.md)
-* [Automated Testing](qa/automated-testing.md)
 
 ## System Administration
 
