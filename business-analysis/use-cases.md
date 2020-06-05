@@ -2,7 +2,7 @@
 
 ## Data Access
 
-There are many Businesses which have Business accounts on Erimont. Each Business can only access the customers and orders which are related to them \(data privacy\).
+There are many Businesses which have Business accounts on ACME Corporation. Each Business can only access the customers and orders which are related to them \(data privacy\).
 
 ## Business Use Cases
 
@@ -10,14 +10,14 @@ There are many Businesses which have Business accounts on Erimont. Each Business
 
 Commands:
 
-* Register a Business account
-* Edit the list of employees within the company
-* Deactivate employees within the company
+* Register a subsidary
+* Edit the list of employees within a subsidiary
+* Deactivate employees within a subsidiary
 
 Queries:
 
-* View all list of all employees within the company
-* Deactivate Business account
+* View all list of all employees within a subsidiary
+* Deactivate a subsidiary
 
 ### Procurement Managers
 
