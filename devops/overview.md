@@ -4,14 +4,14 @@ DevOps boosts culture of collaboration between software development \(Dev\) and 
 
 It enables teams to self service, focusing on planning, developing, measuring and improving what matters.
 
-‘four key metrics’ \(described in [Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations-ebook/dp/B07B9F83WM)\) track performance of DevOps implementation in the organisations.
+‘four key metrics’ \(described in [Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations-ebook/dp/B07B9F83WM)\) track performance of DevOps implementation in the organisations.  
+  
+   Lead Time for Changes - How long it takes to run \(code\) changes in production.  
+   Deployment Frequency - How often \(code\) changes are deployed to production.  
+   Time to Restore Service - How long it takes to restore failed service.  
+   Change Failure Rate - What is the percentage of failed deployments.
 
- - Lead Time for Changes  
- - Deployment Frequency  
- - Time to Restore Service  
- - Change Failure Rate
-
-DevOps transforms business and brings benefits like innovation, shorter time to market, stability.  
+DevOps transforms business and brings benefits like innovation, shorter time to market, user satisfaction, growth.  
 
 
 
